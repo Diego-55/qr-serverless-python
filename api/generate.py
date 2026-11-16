@@ -1,5 +1,5 @@
 from http.server import BaseHTTPRequestHandler
-import qrcode
+import qrcode  # type: ignore[reportMissingModuleSource]
 import io
 import urllib.parse
 
